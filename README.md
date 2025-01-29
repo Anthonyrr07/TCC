@@ -1,2 +1,2 @@
 # TCC
-Trabalho de Conclusão de Curso-karatê Kyokushin
+Trabalho de Conclusão de Curso-karate Kyokushin
