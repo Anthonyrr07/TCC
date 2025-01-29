@@ -34,6 +34,15 @@ header {
     color: white;
 }
 
+.menu-item {
+    width: 600px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-shadow: 2px 2px 2px 0px;
+}
 
 .price {
     font-size: 18px;
