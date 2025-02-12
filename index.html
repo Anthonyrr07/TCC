@@ -5,20 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nunês karate kyokushin</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script type="module">
+        // Importar a configuração do Firebase usando CDN
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js";
+
+        // Configuração do Firebase do seu aplicativo web
+        const firebaseConfig = {
+            apiKey: "AIzaSyAJNasY3zQ4qeUu0wLYXkEXojcIYxdJinE",
+            authDomain: "tcc-dojo-leandro.firebaseapp.com",
+            projectId: "tcc-dojo-leandro",
+            storageBucket: "tcc-dojo-leandro.firebasestorage.app",
+            messagingSenderId: "664167654906",
+            appId: "1:664167654906:web:7397c99478dcd5d6237043",
+            measurementId: "G-7X3N0K7YLX"
+        };
+
+        // Inicializar o Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+
+        // Agora você pode usar o Firebase no seu projeto
+        console.log(app);
+    </script>
 </head>
 <body>
-    
-
-
     <div class="menu">
-<nav class="historia"><a href="historia.html">História</a></nav>
-<nav class="sobrenos"><a href="sobrenos.html">Sobre nós</a></nav>
-<nav class="agendamento"><a href="agendamento.html">Agende uma aula</a></nav>
-<nav><a href="conta.html">Sua conta</a></nav>
+        <nav class="historia"><a href="historia.html">História</a></nav>
+        <nav class="sobrenos"><a href="sobrenos.html">Sobre nós</a></nav>
+        <nav class="agendamento"><a href="agendamento.html">Agende uma aula</a></nav>
+        <nav><a href="conta.html">Sua conta</a></nav>
     </div>
     
-    <div class="fundo"><h1>Bem vindo ao Nunês Karate kyokushin </h1></div>
-
-    <!-- Adicione Firebase SDK -->
+    <div class="fundo"><h1>Bem vindo ao Nunês Karate kyokushin</h1></div>
 </body>
 </html>
