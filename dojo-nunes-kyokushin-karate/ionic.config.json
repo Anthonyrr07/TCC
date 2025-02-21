@@ -1,0 +1,7 @@
+{
+  "name": "dojo-nunes-kyokushin-karate",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
